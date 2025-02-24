@@ -1,4 +1,29 @@
+# Virtual environment folder
 venv/
+
+# Python bytecode
 __pycache__/
+
+# Django SQLite database file (remove this since you're using MySQL)
 db.sqlite3
+
+# Environment variable file
 .env
+
+
+# MySQL-specific files
+*.log
+*.sql
+*.sqlite3
+
+# Django migrations folder (if you don't want to track it, otherwise ignore this line)
+migrations/
+
+# VS Code / PyCharm or other editor files
+.vscode/
+.idea/
+
+# Cache and temp files
+*.pyc
+*.pyo
+*.~*
